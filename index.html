@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <script src="https://kit.fontawesome.com/3f308fe2f7.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/slick/slick.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <title>megamart</title>
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <div class="nav-background">
+            <div class="container container-Coustom">
+                <nav class="navbar navbar-expand-lg px-lg-3 py-1">
+                    <!-- top navbar -->
+                    <div class="d-flex under-coustom">
+                        <a class="navbar-brand xl-size text-light me-2" href="#">Login / Signup</a>
+                        <div class="dropdown w-50">
+                            <button class="btn text-light border-0 rounded-0 xl-size dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                USD
+                            </button>
+                            <ul class="dropdown-menu xl-size bg-danger p-0 round-0">
+                                <li>
+                                    <a class="dropdown-item w-50" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item w-50" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item w-50" href="#">Action</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ms-auto">
+                        <ul class="list-unstyled d-flex under-set mb-0 align-items-center xl-size">
+                            <li>
+                                <a class="nav-link text-light me-3" aria-current="page" href="#">Help</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-light me-2" href="#">
+                                    <i class="fa-regular fa-heart me-2"></i>
+                                    Wishlist
+                                </a>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn text-light rounded-0 border-0 xl-size me-2  dropdown-toggle"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        English
+                                    </button>
+                                    <ul class="dropdown-menu xl-size round-0 p-0">
+                                        <li><a class="dropdown-item w-50 " href="#">HINDI</a></li>
+                                        <li><a class="dropdown-item w-50" href="#">CHAINIES</a></li>
+                                        <li><a class="dropdown-item w-50" href="#">SPANISH</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="text-light displyNone download-Card">
+                                    <a class="nav-link text-light download-Coustom" href="#">
+                                        DOWNLOAD APP
+                                    </a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- toggle button -->
+                    <button class="navbar-toggler togleBtn-fontsize Toggle-coustom border-0" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="ps-3 collapse navbar-collapse xl-size ms-auto flex-grow-0" id="navbarText">
+                        <ul class="m-0 navbar-nav coustom-display py-3 ps-4">
+                            <li class="nav-item">
+                                <a class="nav-link ps-lg-2 ps-sm-1 active text-light" aria-current="page" href="#">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-lg-2 ps-sm-1 text-light" href="#">SHOP</a>
+                            </li>
+                            <li class="nav-item position-relative">
+                                <span
+                                    class="badge positon-new-badage border-0 xl-size position-badge border position-absolute">
+                                    New</span>
+                                <a class="nav-link ps-lg-2 ps-sm-1  text-light position-relative" href="#">
+                                    FASHION
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative">
+                                <span class="badge badage-pos-2 border-0 xl-size  border position-absolute">
+                                    New
+                                </span>
+                                <a class="nav-link ps-lg-2 ps-sm-1 text-light position-relative">
+                                    ELECTRONICS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-lg-2 ps-sm-1 active text-light" aria-current="page"
+                                    href="#">PAGES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-lg-2 ps-sm-1  text-light" href="#">FEATURES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-lg-2 ps-sm-1  text-light" href="#">BLOG</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- search bar -->
+        <div class="bg-danger nav-padding">
+            <div class="container container-Coustom  mb-md-3 pb-3">
+                <div class="row center  w-100 coustom-margin-unset align-items-start pt-4">
+                    <div class="col-lg-3 col-sm-12 text-center">
+                        <a class="navbar-brand fs-3 text-light" href="#">
+                            <i class="fa-solid me-2 ps-2 coustom-sec  fw-bold fa-cart-shopping"></i>
+                            MEGAMART
+                        </a>
+                    </div>
+                    <div class="col-lg-7 item-center my-sm-3 my-lg-0 p-0 justify-content-lg-end  col-sm-8">
+                        <div
+                            class="row medium-size width-unset coustom-Margin w-100  pe-sm-0 pe-lg-3 content-center coustom-Sub-padding justify-content-lg-end justify-content-sm-start">
+                            <div
+                                class="col-lg-5 col-sm-7 width-unset ps-sm-2 ps-md-4 ps-lg-0 coustom-Padding  search-bar-Height">
+                                <input type="text"
+                                    class="p-2 ps-3 Coustom-Sub-heading w-100 search-bar-Height coustom-sub-cover border-0"
+                                    placeholder="Search..">
+                            </div>
+                            <div
+                                class="dropdown border-0 width-unset col-lg-3 justify-content-lg-end col-sm-4 p-1 coustom-card-border item-center bg-light">
+                                <button
+                                    class="btn text-dark catageroies rounded-0 border-0 xl-size me-3  dropdown-toggle"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    All catageroies
+                                </button>
+                                <ul class="dropdown-menu p-0">
+                                    <li><a class="dropdown-item w-50" href="#">Action</a></li>
+                                    <li><a class="dropdown-item w-50" href="#">Action</a></li>
+                                    <li><a class="dropdown-item w-50" href="#">Action</a></li>
+                                </ul>
+                            </div>
+                            <div
+                                class="col-lg-1 col-sm-1 coustom-back width-unset item-center justify-content-center coustom-cover py-2">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-2 my-sm-3 my-lg-0 content-center pe-sm-2 pe-md-0 ps-sm-0 coustom-bar width-unset col-sm-4 p-lg-0">
+                        <div class="row-12 d-flex footer-width me-md-3 content-center">
+                            <div
+                                class="medium-size content-center footer-width col-3 search-bar-Height coustom-border ms-sm-3 list-unstyled">
+                                <div
+                                    class=" bg-light w-100 justify-content-center cost-bar-coustom search-bar-Height item-center coustom-border">
+                                    <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 footer-width">
+                                <div
+                                    class="bg-light medium-size justify-content-center cost-bar-coustom search-bar-Height item-center">
+                                    0 items:
+                                    <span class="text-danger px-1">$0.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Departments and slick slider -->
+        <div class="container line-Height margin-TopNavbar container-Coustom">
+            <div class="row w-100 m-0 xl-size navbar-expand-lg">
+                <div class="col-3 pe-0">
+                    <div class="row">
+                        <div class="col-md-12 department-disply">
+                            <div class="d-flex align-items-center coustom-back justify-content-between p-3">
+                                <a class=" m-0 text-decoration-none fw-bold text-dark" href="#">
+                                    DEPARTMENTS
+                                </a>
+                                <i class="fa-solid fa-bars "></i>
+                            </div>
+                            <ul class=" border p-0  medium-size">
+                                <li class="list-group-item border-Coustom text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-solid text-dark icon-size fa-shirt me-1"></i>
+                                        Fashion & Clothing
+                                    </a>
+                                </li>
+
+                                <li class="list-group-item border-Coustom text-secondary text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-solid text-dark icon-size fa-mobile me-1"></i>
+                                        Mobile Phones
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-Coustom text-secondary text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-sharp text-dark icon-size fa-solid fa-futbol me-1"></i>
+                                        Sports & Outerwear
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-Coustom text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-solid text-dark icon-size fa-burger me-1"></i>
+                                        Food & Fruits
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-Coustom text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-solid text-dark icon-size fa-paintbrush me-1"></i>
+                                        Beauty & Health
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-Coustom text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-solid text-dark icon-size fa-briefcase me-1"></i>
+                                        Shoes & Bags
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-Coustom text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-solid text-dark icon-size fa-camera-retro me-1"></i>
+                                        Decors & homeslider
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-Coustom text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-sharp text-dark icon-size fa-solid fa-bolt me-1"></i>
+                                        Electronics & Hitech
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-Coustom text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-solid text-dark icon-size fa-headphones me-1"></i>
+                                        Accressories
+                                    </a>
+                                </li>
+                                <li class="list-group-item text-secondary coustom-list">
+                                    <a class="text-decoration-none text-secondary" href="#">
+                                        <i class="fa-brands text-dark icon-size fa-apple me-1"></i>
+                                        Digitals Software
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12 sub-navbar">
+                    <div class="row ">
+                        <div class="col-12 ps-sm-4 department-disply ps-md-2">
+                            <div class="bg-dark">
+                                <ul class="d-flex m-0 justify-content-between py-3 ps-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link ps-lg-2 ps-sm-1 active text-light" aria-current="page"
+                                            href="#">
+                                            HOME
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ps-lg-2 ps-sm-1 text-light" href="#">SHOP</a>
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <span class="badge positon-new-badage border-0 xl-size badage-pos-pad 
+                                         border position-absolute">
+                                            New
+                                        </span>
+                                        <a class="nav-link ps-lg-2 ps-sm-1  text-light position-relative" href="#">
+                                            FASHION
+                                        </a>
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <span
+                                            class="badge badage-pos-2 border-0 xl-size badage-pos-pad-2 border position-absolute">
+                                            New
+                                        </span>
+                                        <a class="nav-link ps-lg-2 ps-sm-1 text-light position-relative">
+                                            ELECTRONICS
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ps-lg-2 ps-sm-1 active text-light" aria-current="page"
+                                            href="#">
+                                            PAGES
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ps-lg-2 ps-sm-1 text-light" href="#">
+                                            FEATURES
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ps-lg-2 ps-sm-1 text-light" href="#">
+                                            BLOG
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ps-lg-2 ps-sm-1 call-card ps-4 pe-1 medium-size" href="#">
+                                            CALL US FREE:
+                                            <span class="coustom-back text-dark mx-1 px-2 py-1">1-800-777-1452</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- slick slider -->
+                        <div class="col-12 p-0 full-width Unset-padding">
+                            <div class="homeslider margin-coustom coustom-postion homeSlider-margin">
+                                <div class="position-relative">
+                                    <img src=" img/How-to-Wear-a-Grey-Suit-2.jpg" class="img-coustom position-relative"
+                                        alt="discount-coustom-card on men suit">
+                                    <div class="position-absolute discount-Positon xl-size text-light">
+                                        <h2 class="mb-0">UPTO 50% OFFER!</h2>
+                                        <p>FOR ALL MEN COLLECTIONS</p>
+                                        <a href="#"
+                                            class="border coustom-border text-decoration-none text-dark bg-light p-2">SHOP
+                                            NOW
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="position-relative">
+                                    <img src=" img/Model-Ross-3.jpg" class="img-coustom position-relative"
+                                        alt="discount-coustom-card on men suit">
+                                    <div class="position-absolute discount-Positon xl-size text-light">
+                                        <h2 class="mb-0">UPTO 50% OFFER!</h2>
+                                        <p>FOR ALL MEN COLLECTIONS</p>
+                                        <a href="#"
+                                            class="border coustom-border text-decoration-none text-dark bg-light p-2">SHOP
+                                            NOW
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="position-relative">
+                                    <img src=" img/081022_Learn_Plus_2258-bw.webp" class="img-coustom position-relative"
+                                        alt="discount-coustom-card on men suit">
+                                    <div class="position-absolute discount-Positon xl-size text-light">
+                                        <h2 class="mb-0">UPTO 50% OFFER!</h2>
+                                        <p>FOR ALL MEN COLLECTIONS</p>
+                                        <a href="#"
+                                            class="border coustom-border text-decoration-none text-dark bg-light p-2">SHOP
+                                            NOW
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- discount cards -->
+        <div class="container section-coustom container-Coustom m-auto">
+            <div class="row mt-1">
+                <div class="col-md-4 mt-sm-0 mt-md-4 col-sm-12">
+                    <div class="background-img xl-size text-center text-light">
+                        <div>
+                            <h6 class="mb-2 fw-semibold"> BIG OFFER DAY </h6>
+                            <p class="mb-3 coustom-font">
+                                <span class="mb-3 xxl-size py-1 discount-box">EXTRA 25% OFF!</span>
+                            </p>
+                            <p class="lg-size">AT $199.00 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 col-sm-12">
+                    <div class="background-img1 xl-size text-dark">
+                        <h6 class="mb-1 fw-semibold">CANON EOS </h6>
+                        <p class="mb-2 coustom-font">UPTO 30% FLAT OFFER</p>
+                        <p>
+                            <span class="alphabet-boldness ontSz py-1 px-2 text-light background-color">
+                                Special Offer!
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 col-sm-12">
+                    <div class="coustom-img xl-size text-light">
+                        <h6 class="mb-1 text-dark fw-semibold"> LETV 920</h6>
+                        <h6 class="mb-1 text-dark">ONEDAY SALE</h6>
+                        <p class="mb-3 alphabet-boldness coustom-font">NEW ARRIVALLS</p>
+                        <p class="mb-3">
+                            <span class="ontSz py-1 px-2 text-dark bg-light">
+                                ONLY $799
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- HOT DEALS -->
+            <div class="row mt-5 medium-size line-Height">
+                <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 Coustom-Size col-sm-6 coustom-sec  border-0" id="order1">
+                            <div class="border">
+                                <div
+                                    class="card-header border-0 border-bottom-1 background hotdeals-padding border sidetitle">
+                                    HOT DEALS
+                                </div>
+                                <div class="hotdeals">
+                                    <div class="pt-2">
+                                        <img src="img/90146SL01_1.webp" class="card-img-top coustom-watch" alt="watch">
+                                        <div class="text-center py-2 px-3">
+                                            <p class="mb-0">ZEXON BRAND MENS WATCH</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2">
+                                        <img src="img/90146SL01_1.webp" class="card-img-top coustom-watch " alt="watch">
+                                        <div class="text-center py-2 px-3">
+                                            <p class="mb-0">ZEXON BRAND MENS WATCH</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2">
+                                        <img src="img/90146SL01_1.webp" class="card-img-top coustom-watch" alt="watch">
+                                        <div class="text-center py-2 px-3">
+                                            <p class="mb-0">ZEXON BRAND MENS WATCH</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer padCard bg-light px-0 py-0">
+                                    <div class="row m-auto">
+                                        <div class="col-3 p-2 card-top-border  secCard text-center">
+                                            <span class="fw-semibold">02</span>
+                                            <br>
+                                            <span class="text-secondary">Days</span>
+                                        </div>
+                                        <div class="col-3 p-2 card-top-border  secCard text-center">
+                                            <span class="fw-semibold">12</span>
+                                            <br>
+                                            <span class="text-secondary">Hrs</span>
+                                        </div>
+                                        <div class="col-3 p-2 card-top-border  secCard text-center">
+                                            <span class="fw-semibold">24</span>
+                                            <br>
+                                            <span class="text-secondary">Mins</span>
+                                        </div>
+                                        <div class="col-3 p-2 card-top-border  text-center">
+                                            <span class="fw-semibold">56</span>
+                                            <br>
+                                            <span class="text-secondary">Sec</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- NEW PRODUCTS -->
+                        <div class="col-md-12 departdisplyNone col-sm-6">
+                            <div class="border mt-sm-0 mt-md-4">
+                                <div class="card-header border-0 background hotdeals-padding border sidetitle">
+                                    NEW PRODUCTS
+                                </div>
+                                <div class="row py-2 px-1 m-auto border-bottom">
+                                    <div class="col-4 p-0">
+                                        <img src="img/s-l400.jpg" class="card-img-top" alt="products">
+                                    </div>
+                                    <div class="col-8 px-1">
+                                        <div class="">
+                                            <p class="mb-0">ZEXON BRAND MENS </p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2 px-1 border-bottom m-auto">
+                                    <div class="col-4 p-0">
+                                        <img src="img/images (2).jpeg" class="card-img-top" alt="products">
+                                    </div>
+                                    <div class="col-8 px-1">
+                                        <div class="">
+                                            <p class="mb-0">ZEXON BRAND MENS</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2 px-1 border-bottom m-auto">
+                                    <div class="col-4 p-0">
+                                        <img src="img/slim_3mm_1010284.jpg" class="card-img-top" alt="products">
+                                    </div>
+                                    <div class="col-8 px-1">
+                                        <div>
+                                            <p class="mb-0">ZEXON BRAND MENS </p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2 px-1 border-bottom m-auto">
+                                    <div class="col-4 p-0">
+                                        <img src="img/olaybnd000040.avif" class="card-img-top" alt="products">
+                                    </div>
+                                    <div class="col-8 px-1">
+                                        <div class="">
+                                            <p class="mb-0">ZEXON BRAND MENS </p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2 px-1 border-bottom m-auto">
+                                    <div class="col-4 p-0">
+                                        <img src="img/pms_1650347672.13586697.jpg" class="card-img-top" alt="products">
+                                    </div>
+                                    <div class="col-8 px-1">
+                                        <div class="">
+                                            <p class="mb-0">ZEXON BRAND MENS </p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2 px-1 m-auto">
+                                    <div class="col-4 p-0">
+                                        <img src="img/71gm8v4uPBL._SL1500_.jpg" class="card-img-top" alt="products">
+                                    </div>
+                                    <div class="col-8 px-1">
+                                        <div class="">
+                                            <p class="mb-0">ZEXON BRAND MENS</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- women product discount -->
+                        <div class="col-md-12  col-sm-6 mt-sm-0 mt-md-4">
+                            <div class="card border-0">
+                                <img src="img/over-the-knee-boots-outfit-005-683x1024.jpg" class="coustom-discountcard"
+                                    alt="women products">
+                                <div class="position-absolute discount-sub-card text-center xl-size text-dark ">
+                                    <a href="#"
+                                        class="border coustom-border text-decoration-none text-dark bg-light py-1 px-2">
+                                        WOMENS</a>
+                                    <p class="mb-2 mt-2 fontphot">UPTO 30% OFFER!</p>
+                                    <p>SHOP NOW</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- testimonials -->
+                        <div class="col-md-12 col-sm-6 border-1 mt-4">
+                            <div class="text-center">
+                                <div
+                                    class="card-header hotdeals-padding background border-danger border bg-danger text-light sidetitle">
+                                    TESTIMONIALS
+                                </div>
+                                <div class="testimonials mb-0 testimonial-Border">
+                                    <div class="p-3">
+                                        <p class="text-secondary coustom-font-card">Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipisicing elit. Voluptatum repellendus mollitia, sunt doloremque nulla
+                                            quod. Aut dolores libero hic iste.
+                                        </p>
+                                        <div class="text-center border-Coustom Coustom-Testimonial">
+                                            <img src="img/images (3).jpeg"
+                                                class="card-img-top imgRound mb-1 m-auto rounded-circle"
+                                                alt="women img">
+                                            <p class="mb-0 fw-semibold">CHARLI BENSON</p>
+                                            <p class="mb-0 text-secondary">Lead desinger</p>
+                                        </div>
+                                    </div>
+                                    <div class="p-3">
+                                        <p class="text-secondary coustom-font-card">Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipisicing elit. Voluptatum repellendus mollitia, sunt doloremque nulla
+                                            quod. Aut dolores libero hic iste.
+                                        </p>
+                                        <div class="text-center border-Coustom Coustom-Testimonial">
+                                            <img src="img/images (3).jpeg"
+                                                class="card-img-top imgRound mb-1 m-auto rounded-circle"
+                                                alt="women img">
+                                            <p class="mb-0 fw-semibold">CHARLI BENSON</p>
+                                            <p class="mb-0 text-secondary ">Lead desinger</p>
+                                        </div>
+                                    </div>
+                                    <div class="p-3">
+                                        <p class="text-secondary coustom-font-card">Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipisicing elit.voluptatum repellendus mollitia, sunt doloremque nulla
+                                            quod. Aut dolores libero hic iste.
+                                        </p>
+                                        <div class="text-center border-Coustom Coustom-Testimonial">
+                                            <img src="img/images (3).jpeg"
+                                                class="card-img-top imgRound mb-1 m-auto rounded-circle"
+                                                alt="women img">
+                                            <p class="mb-0 fw-semibold">CHARLI BENSON</p>
+                                            <p class="mb-0 text-secondary">Lead desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="card-footer px-0 py-0">
+                                    <div class="row m-auto"> </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <!-- RECENT NEWS -->
+                        <div class="col-md-12 coustom-sec  col-sm-6 mt-sm-4 mt-md-4" id="order2">
+                            <div class="border">
+                                <div class="card-header background border border-0 hotdeals-padding sidetitle">
+                                    RECENT NEWS
+                                </div>
+                                <div class="hotdeals">
+                                    <div class="px-3 py-3">
+                                        <div class="bag position-relative">
+                                            <span
+                                                class="badge bg-coustom px-2 py-1 coustom-border border-0 arivalcard position-absolute">
+                                                <span class="lg-size  mb-2">24</span>
+                                                <br>
+                                                <span>DEC</span>
+                                            </span>
+                                            <img src="img/-4660.webp" class="card-img-top" alt="profile img">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="mb-1 sidetitle">New Blog Post Title Here</p>
+                                            <div class="d-flex">
+                                                <p class="pe-1 mb-1 me-1 fashion text-secondary">
+                                                    In Fashion
+                                                </p>
+                                                <p class="mb-1 text-secondary"> No Comments</p>
+                                            </div>
+                                            <p class="mb-3 text-secondary seller-line-height txt-ellipsis">Lorem Lorem,
+                                                ipsum
+                                                dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                                                ipsum dolor sit amet consectetur, adipisicing elit. Nihil, neque?
+                                            </p>
+                                            <a href="#" class="text-decoration-none">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 py-2">
+                                        <div class="bag position-relative">
+                                            <span
+                                                class="badge bg-danger px-2 py-1 coustom-border border-0 arivalcard position-absolute">
+                                                <span class="lg-size  mb-2">24</span>
+                                                <br>
+                                                <span>DEC</span></span>
+                                            <img src="img/-4660.webp" class="card-img-top" alt="profile img">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="mb-1 sidetitle">New Blog Post Title Here</p>
+                                            <div class="d-flex  ">
+                                                <p class="pe-1 mb-1 me-1 text-secondary fashion">In Fashion</p>
+                                                <p class="mb-1 text-secondary">No Comments</p>
+                                            </div>
+                                            <p class="mb-3 text-secondary seller-line-height txt-ellipsis">Lorem Lorem,
+                                                ipsum
+                                                dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                                                ipsum dolor sit amet consectetur, adipisicing elit. Nihil, neque?</p>
+                                            <a href="#" class="text-decoration-none">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 py-2 ">
+                                        <div class="bag position-relative">
+                                            <span
+                                                class="badge bg-danger px-2 py-1 coustom-border border-0 arivalcard position-absolute"><span
+                                                    class="lg-size  mb-2">
+                                                    24
+                                                </span>
+                                                <br>
+                                                <span>DEC</span></span>
+                                            <img src="img/-4660.webp" class="card-img-top" alt="profile img">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="mb-1 sidetitle">New Blog Post Title Here</p>
+                                            <div class="d-flex  ">
+                                                <p class="pe-1 mb-1 me-1 text-secondary fashion">In Fashion
+                                                </p>
+                                                <p class="mb-1 text-secondary"> No Comments</p>
+                                            </div>
+                                            <p class="mb-3 text-secondary seller-line-height txt-ellipsis">Lorem Lorem,
+                                                ipsum
+                                                dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                                                ipsum dolor sit amet consectetur, adipisicing elit. Nihil, neque?
+                                            </p>
+                                            <a href="#" class="text-decoration-none">CONTINUE READING</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <!-- new arival -->
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <P class="p-2 mb-2 title ps-0">NEW ARRIVALS</P>
+                            <ul class="nav nav-tabs d-none border-bottom-0 justify-content-end Coustom-tab" id="myTab"
+                                role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-secondary p-2 active" id="home-tab"
+                                        data-bs-toggle="Coustom-tab" data-bs-target="#home-tab-pane" type="button"
+                                        role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                                        ALL
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-secondary p-2" id="profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                        aria-controls="profile-tab-pane" aria-selected="false">
+                                        FASHION
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link p-2 text-secondary" id="contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                        aria-controls="contact-tab-pane" aria-selected="false">
+                                        MOBILES
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link p-2 text-secondary" id="disabled-tab" data-bs-toggle="tab"
+                                        data-bs-target="#disabled-tab-pane" type="button" role="tab"
+                                        aria-controls="disabled-tab-pane" aria-selected="false">
+                                        ELECTRONICS
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link p-2 text-secondary" id="disabled-tab" data-bs-toggle="tab"
+                                        data-bs-target="#disabled-tab-pane" type="button" role="tab"
+                                        aria-controls="disabled-tab-pane" aria-selected="false">
+                                        FOODS
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link p-2 text-secondary" id="disabled-tab" data-bs-toggle="tab"
+                                        data-bs-target="#disabled-tab-pane" type="button" role="tab"
+                                        aria-controls="disabled-tab-pane" aria-selected="false">
+                                        SPORTS
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <!-- TAB-1 -->
+                            <div class=" arrslider coustmarrow arrivalPad tab-pane fade show active" id="home-tab-pane"
+                                role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                <div class=" p-0 unset-cover testimonial-Border">
+                                    <div class="bag position-relative">
+                                        <span
+                                            class="badge bg-danger xl-size coustom-border border-0 arivalcard position-absolute">
+                                            Sale
+                                        </span>
+                                        <img src="img/adidas-superstar-white.jpg" class="card-img-top coustom-img-card"
+                                            alt="products">
+                                        <ul class="hoverOn newsCaption d-flex list-unstyled m-auto hovIcon">
+                                            <li class="col border py-1 border-start-0 text-center"><i
+                                                    class="fa-solid fa-cart-shopping"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 text-center"><i
+                                                    class="fa-regular fa-heart"></i>
+                                            </li>
+                                            <li class="col border py-1  border-start-0 border-end-0 text-center">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-footer border-top-0 px-2">
+                                        <div class="text-center py-1">
+                                            <p class="mb-0">ZEXON BRAND MENS</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-0 unset-cover testimonial-Border">
+                                    <div class="position-relative">
+                                        <img src="img/cgg_hero_600x.jpg" class="card-img-top coustom-img-card"
+                                            alt="products">
+                                        <ul class="hoverOn d-flex list-unstyled m-auto hovIcon">
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-footer border-top-0 px-2">
+                                        <div class="text-center py-1">
+                                            <p class="mb-0">ZEXON BRAND MENS </p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-0 unset-cover testimonial-Border">
+                                    <div class="position-relative">
+                                        <span
+                                            class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-warning">New</span>
+                                        <img src="img/best-at-home-air-purifiers-287838-1592519435180-main.700x0c.jpg"
+                                            class="card-img-top coustom-img-card" alt="products">
+                                        <ul class="hoverOn d-flex list-unstyled m-auto hovIcon">
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </li>
+                                            <li class="col border py-1  border-start-0 text-center">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </li>
+                                            <li class="col border py-1  border-start-0 border-end-0 text-center">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="card-footer border-top-0 px-2">
+                                        <div class="text-center py-1">
+                                            <p class="mb-0">ZEXON BRAND MENS</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" p-0 unset-cover testimonial-Border">
+                                    <div class="position-relative">
+                                        <span
+                                            class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-danger">Sale</span>
+                                        <img src="img/s-l225.jpg" class="card-img-top coustom-img-card" alt="products">
+                                        <ul class="hoverOn d-flex list-unstyled m-auto hovIcon">
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 border-end-0 text-center">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-footer border-top-0 px-2">
+                                        <div class=" text-center py-1">
+                                            <p class="mb-0">ZEXON BRAND MENS</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-0 unset-cover testimonial-Border">
+                                    <div class="bag position-relative">
+                                        <span
+                                            class="badge bg-danger coustom-border border-0 xl-size arivalcard position-absolute">Sale</span>
+                                        <img src="img/adidas-superstar-white.jpg" class="card-img-top  coustom-img-card"
+                                            alt="products">
+                                        <ul class="hoverOn d-flex list-unstyled m-auto hovIcon">
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </li>
+                                            <li class="col border py-1  border-start-0 border-end-0 text-center">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-footer border-top-0 px-2">
+                                        <div class="text-center py-1">
+                                            <p class="mb-0">ZEXON BRAND MENS</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-0 unset-cover testimonial-Border">
+                                    <div class="position-relative">
+                                        <img src="img/cgg_hero_600x.jpg" class="card-img-top coustom-img-card"
+                                            alt="products">
+                                        <ul class="hoverOn d-flex list-unstyled m-auto hovIcon">
+                                            <li class="col border py-1 border-start-0  text-center">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </li>
+                                            <li class="col border py-1  border-start-0 border-end-0 text-center">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-footer border-top-0 px-2">
+                                        <div class="text-center py-1">
+                                            <p class="mb-0">ZEXON BRAND MENS </p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="p-0 unset-cover testimonial-Border">
+                                    <div class="position-relative">
+                                        <span
+                                            class="badge arivalcard xl-size coustom-border border-0 position-absolute  bg-danger">
+                                            Sale
+                                        </span>
+                                        <img src="img/s-l225.jpg" class="card-img-top coustom-img-card" alt="products">
+                                        <ul class="hoverOn d-flex list-unstyled m-auto hovIcon">
+                                            <li class="col border py-1 border-start-0  text-center">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 text-center">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </li>
+                                            <li class="col border py-1 border-start-0 border-end-0 text-center">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-footer border-top-0 px-2">
+                                        <div class="text-center py-1">
+                                            <p class="mb-0">ZEXON BRAND MENS</p>
+                                            <p class="mb-0 fw-semibold">$240.00</p>
+                                            <div class="Star">
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  TAB-2 -->
+                            <div class="arrivalslider coustmarrow arrivalPad tab-pane fade" id="profile-tab-pane"
+                                role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum perferendis
+                                consequuntur laudantium adipisci tempora beatae sed aliquid molestias tempore officia
+                                necessitatibus maxime alias recusandae libero iusto hic non, dolore modi enim voluptatum
+                                itaque. Impedit dolore id magnam accusantium saepe. Quaerat autem nemo, architecto
+                                necessitatibus ad omnis laudantium tenetur maxime. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Eligendi in, dolores ullam quis nobis facere fuga dolore
+                                aperiam aspernatur quidem velit inventore. Quidem atque sequi, iste et voluptatem
+                                ducimus odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolorem
+                                unde minima ratione, accusamus recusandae ex molestiae aliquid animi. Tempore blanditiis
+                                omnis reiciendis deleniti, ex a, rerum repudiandae, deserunt doloremque aperiam sunt
+                                tempora? Voluptatibus debitis, rem ullam quisquam voluptatem aliquid aspernatur maiores,
+                                quod, consectetur necessitatibus possimus mollitia ipsam consequatur pariatur? Lorem
+                                ipsum dolor sit amet consectetur, adipisicing elit. In molestias expedita eligendi error
+                                ad quaerat, beatae, sed consectetur accusantium magni laborum aliquid voluptatem odit
+                                dicta, est debitis alias earum corporis tempora impedit odio? Minus non earum autem ab
+                                provident, minima error sunt corporis ut architecto quis beatae magni atque sapiente?
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At possimus esse repellendus
+                                tempora ipsa eaque ex magni ipsum sint. Maxime deleniti distinctio cupiditate esse vel
+                                delectus ipsa facere, laboriosam sit illo similique sequi, voluptatibus alias natus
+                                laudantium! Laboriosam, corrupti provident.
+                            </div>
+                            <!-- TAB-3 -->
+                            <div class="arrivalslider coustmarrow arrivalPad tab-pane fade" id="contact-tab-pane"
+                                role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum perferendis
+                                consequuntur laudantium adipisci tempora beatae sed aliquid molestias tempore officia
+                                necessitatibus maxime alias recusandae libero iusto hic non, dolore modi enim voluptatum
+                                itaque. Impedit dolore id magnam accusantium saepe. Quaerat autem nemo, architecto
+                                necessitatibus ad omnis laudantium tenetur maxime. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Eligendi in, dolores ullam quis nobis facere fuga dolore
+                                aperiam aspernatur quidem velit inventore. Quidem atque sequi, iste et voluptatem
+                                ducimus odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolorem
+                                unde minima ratione, accusamus recusandae ex molestiae aliquid animi. Tempore blanditiis
+                                omnis reiciendis deleniti, ex a, rerum repudiandae, deserunt doloremque aperiam sunt
+                                tempora? Voluptatibus debitis, rem ullam quisquam voluptatem aliquid aspernatur maiores,
+                                quod, consectetur necessitatibus possimus mollitia ipsam consequatur pariatur? Lorem
+                                ipsum dolor sit amet consectetur, adipisicing elit. In molestias expedita eligendi error
+                                ad quaerat, beatae, sed consectetur accusantium magni laborum aliquid voluptatem odit
+                                dicta, est debitis alias earum corporis tempora impedit odio? Minus non earum autem ab
+                                provident, minima error sunt corporis ut architecto quis beatae magni atque sapiente?
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At possimus esse repellendus
+                                tempora ipsa eaque ex magni ipsum sint. Maxime deleniti distinctio cupiditate esse vel
+                                delectus ipsa facere, laboriosam sit illo similique sequi, voluptatibus alias natus
+                                laudantium! Laboriosam, corrupti provident. </div>
+                            <!-- TAB-4 -->
+                            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel"
+                                aria-labelledby="disabled-tab" tabindex="">
+                            </div>
+                            <!-- TAB-5 -->
+                            <div class="tab-pane fade" id="foods-tab-pane" role="tabpanel" aria-labelledby="foods-tab"
+                                tabindex="0">Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Eveniet fugiat sunt nostrum
+                                error, veritatis porro sed eaque doloremque sapiente recusandae esse harum consequuntur
+                                vel magni eos laboriosam tenetur minus quasi dolorem, ipsum repellat ex magnam. Eum,
+                                ducimus nemo necessitatibus et porro repellat harum quidem, veniam soluta corrupti aut
+                                nihil. Qui
+                            </div>
+                            <!-- TAB-6 -->
+                            <div class="tab-pane fade" id="sports-tab-pane" role="tabpanel" aria-labelledby="sports-tab"
+                                tabindex="0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet fugiat
+                                sunt nostrum
+                                error, veritatis porro sed eaque doloremque sapiente recusandae esse harum consequuntur
+                                vel magni eos laboriosam tenetur minus quasi dolorem, ipsum repellat ex magnam. Eum,
+                                ducimus nemo necessitatibus et porro repellat harum quidem, veniam soluta corrupti aut
+                                nihil. Qui
+                            </div>
+                        </div>
+                        <!-- img discount -->
+                        <div class="row display-block mt-4 m-auto">
+                            <div class="col Unset-padding coustom-sec  ps-0">
+                                <div class="background-img2 xl-size   text-dark">
+                                    <h6 class="mb-1 fw-semibold">CANON EOS</h6>
+                                    <p class="mb-2 coustom-font">UPTO 30% FLAT OFFER</p>
+                                    <p>
+                                        <span class=" alphabet-boldness  ontSz py-1 px-2 text-dark bg-light">
+                                            SHOP NOW
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col Unset-padding pe-0">
+                                <div class="background-img2 xl-size text-light">
+                                    <h6 class="mb-1  fw-semibold"> CANON EOS </h6>
+                                    <p class="mb-2 coustom-font">UPTO 30% FLAT OFFER</p>
+                                    <p>
+                                        <span class=" alphabet-boldness  ontSz py-1 px-2 text-dark bg-light">
+                                            SHOP NOW
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- BEST SELLER -->
+                        <div class="row mt-5">
+                            <div class="col">
+                                <p class="title">BEST SELLER</p>
+                            </div>
+                        </div>
+                        <div class="bestSlider coustmarrow seller-line-height">
+                            <div class="row ">
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="row display-block">
+                                            <div class="col-6 footer-width">
+                                                <div class="border border-bottom-0 Set-Border  sub-coustom-border p-4">
+                                                    <div class="row">
+                                                        <div class="col-4 p-0">
+                                                            <div class="bag position-relative">
+                                                                <span
+                                                                    class="badge bg-danger xl-size best-sellercard coustom-border border-0arivalcard position-absolute">
+                                                                    Sale
+                                                                </span>
+                                                                <img src="img/Zwl3oJMZWzzXz-xxlarge.jpg"
+                                                                    class="card-img-top " alt="products">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div>
+                                                                <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                <p class="mb-1 fw-semibold">$240.00</p>
+                                                                <div class="Star mb-2">
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-secondary textcol fa-star"></i>
+                                                                </div>
+                                                                <button
+                                                                    class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                    ADD TO CART
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 footer-width">
+                                                <div class="border border-bottom-0 p-4">
+                                                    <div class="row">
+                                                        <div class="col-4 p-0">
+                                                            <img src="img/olaybnd000040.avif" class="card-img-top "
+                                                                alt="products">
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div>
+                                                                <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                <p class="mb-1 fw-semibold">$240.00</p>
+                                                                <div class="mb-2 Star">
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-secondary textcol fa-star"></i>
+                                                                </div>
+                                                                <button
+                                                                    class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                    ADD TO CART
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row display-block">
+                                                <div class="col-6 footer-width">
+                                                    <div
+                                                        class="border border-bottom-0 Set-Border sub-coustom-border p-4">
+                                                        <div class="row">
+                                                            <div class="col-4 p-0">
+                                                                <img src="img/610Td1fyLzL._SL1200_.jpg"
+                                                                    class="card-img-top " alt="products">
+                                                            </div>
+                                                            <div class="col-8">
+                                                                <div>
+                                                                    <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                    <p class="mb-1 fw-semibold">$240.00</p>
+                                                                    <div class="mb-2 Star">
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-secondary textcol fa-star"></i>
+                                                                    </div>
+                                                                    <button
+                                                                        class="btn border fw-semibold bg-light coustom-border xl-size">
+                                                                        ADD TO CART
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 footer-width">
+                                                    <div class="border border-bottom-0 p-4">
+                                                        <div class="row">
+                                                            <div class="col-4 p-0">
+                                                                <div class="bag position-relative">
+                                                                    <span
+                                                                        class="badge xl-size bg-danger best-sellercard coustom-border border-0 arivalcard position-absolute">
+                                                                        Sale
+                                                                    </span>
+                                                                    <img src="img/images (1).jpeg" class="card-img-top "
+                                                                        alt="products">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-8">
+                                                                <div>
+                                                                    <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                    <p class="mb-1 fw-semibold">$240.00</p>
+                                                                    <div class="mb-2 Star">
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-secondary textcol fa-star"></i>
+                                                                    </div>
+                                                                    <button
+                                                                        class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                        ADD TO CART
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row display-block">
+                                                <div class="col-6 footer-width">
+                                                    <div class="testimonial-Border unset-coustom p-4">
+                                                        <div class="row">
+                                                            <div class="col-4 p-0">
+                                                                <div class="bag position-relative">
+                                                                    <span
+                                                                        class="badge xl-size bg-warning best-sellercard coustom-border border-0 arivalcard position-absolute">
+                                                                        Sale
+                                                                    </span>
+                                                                    <img src="img/istockphoto-185278433-612x612.jpg"
+                                                                        class=" card-img-top" alt="products">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-8">
+                                                                <div>
+                                                                    <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                    <p class="mb-1 fw-semibold">$240.00</p>
+                                                                    <div class="mb-2 Star">
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-secondary textcol fa-star"></i>
+                                                                    </div>
+                                                                    <button
+                                                                        class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                        ADD TO CART
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 footer-width">
+                                                    <div class="border p-4">
+                                                        <div class="row">
+                                                            <div class="col-4 p-0">
+                                                                <img src="img/istockphoto-1183697970-170667a.jpg"
+                                                                    class="card-img-top " alt="products">
+                                                            </div>
+                                                            <div class="col-8">
+                                                                <div>
+                                                                    <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                    <p class="mb-1 fw-semibold">$240.00</p>
+                                                                    <div class="mb-2 Star">
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-warning textcol fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid text-secondary textcol fa-star"></i>
+                                                                    </div>
+                                                                    <button
+                                                                        class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                        ADD TO CART
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row display-block">
+                                        <div class="col-6 footer-width">
+                                            <div class="border border-bottom-0 Set-Border  sub-coustom-border p-4">
+                                                <div class="row">
+                                                    <div class="col-4 p-0">
+                                                        <div class="bag position-relative">
+                                                            <span
+                                                                class="badge bg-danger xl-size best-sellercard coustom-border border-0 arivalcard position-absolute">
+                                                                Sale
+                                                            </span>
+                                                            <img src="img/Zwl3oJMZWzzXz-xxlarge.jpg"
+                                                                class="card-img-top" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <div>
+                                                            <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                            <p class="mb-1 fw-semibold">$240.00</p>
+                                                            <div class="Star mb-2">
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                                            </div>
+                                                            <button
+                                                                class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                ADD TO CART
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 footer-width">
+                                            <div class="border border-bottom-0 p-4">
+                                                <div class="row">
+                                                    <div class="col-4 p-0">
+                                                        <img src="img/olaybnd000040.avif" class="card-img-top"
+                                                            alt="products">
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <div>
+                                                            <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                            <p class="mb-1 fw-semibold">$240.00</p>
+                                                            <div class="mb-2 Star">
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-warning textcol fa-star"></i>
+                                                                <i class="fa-solid text-secondary textcol fa-star"></i>
+                                                            </div>
+                                                            <button
+                                                                class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                ADD TO CART
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row display-block ">
+                                            <div class="col-6 footer-width">
+                                                <div class="border border-bottom-0 Set-Border  sub-coustom-border p-4">
+                                                    <div class="row">
+                                                        <div class="col-4 p-0">
+                                                            <img src="img/610Td1fyLzL._SL1200_.jpg" class="card-img-top"
+                                                                alt="products">
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div>
+                                                                <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                <p class="mb-1 fw-semibold">$240.00</p>
+                                                                <div class="mb-2 Star">
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-secondary textcol fa-star"></i>
+                                                                </div>
+                                                                <button
+                                                                    class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                    ADD TO CART
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 footer-width">
+                                                <div class="border border-bottom-0 p-4">
+                                                    <div class="row">
+                                                        <div class="col-4 p-0">
+                                                            <div class="bag position-relative">
+                                                                <span
+                                                                    class="badge xl-size bg-danger best-sellercard coustom-border border-0 arivalcard position-absolute">
+                                                                    Sale
+                                                                </span>
+                                                                <img src="img/images (1).jpeg" class="card-img-top"
+                                                                    alt="products">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div>
+                                                                <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                <p class="mb-1 fw-semibold">$240.00</p>
+                                                                <div class="mb-2 Star">
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-secondary textcol fa-star"></i>
+                                                                </div>
+                                                                <button
+                                                                    class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                    ADD TO CART
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row display-block">
+                                            <div class="col-6 footer-width">
+                                                <div class="testimonial-Border unset-coustom sub-coustom-border p-4">
+                                                    <div class="row">
+                                                        <div class="col-4 p-0">
+                                                            <div class="bag position-relative">
+                                                                <span
+                                                                    class="badge xl-size bg-warning best-sellercard coustom-border border-0 arivalcard position-absolute">
+                                                                    Sale
+                                                                </span>
+                                                                <img src="img/istockphoto-185278433-612x612.jpg"
+                                                                    class="card-img-top" alt="products">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div>
+                                                                <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                <p class="mb-1 fw-semibold">$240.00</p>
+                                                                <div class="mb-2 Star">
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-secondary textcol fa-star"></i>
+                                                                </div>
+                                                                <button
+                                                                    class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                    ADD TO CART
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 footer-width">
+                                                <div class="border p-4">
+                                                    <div class="row">
+                                                        <div class="col-4 p-0">
+                                                            <img src="img/istockphoto-1183697970-170667a.jpg"
+                                                                class="card-img-top" alt="products">
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div>
+                                                                <p class="mb-1">ZEXON BRAND MENS WATCH</p>
+                                                                <p class="mb-1 fw-semibold">$240.00</p>
+                                                                <div class="mb-2 Star">
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-warning textcol fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid text-secondary textcol fa-star"></i>
+                                                                </div>
+                                                                <button
+                                                                    class="btn border coustom-border bg-light fw-semibold xl-size">
+                                                                    ADD TO CART
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FEATURED PRODUCTS -->
+                    <div class="row mt-5">
+                        <div class="col mb-2">
+                            <h6 class="title">FEATURED PRODUCTS</h6>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="arrivalslider arrow coustmarrow">
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="bag">
+                                    <img src="img/adidas-superstar-white.jpg" class="card-img-top  coustom-img-card"
+                                        alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class="text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-danger">
+                                        New
+                                    </span>
+                                    <img src="img/cgg_hero_600x.jpg" class="card-img-top coustom-img-card"
+                                        alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS </p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-warning">
+                                        New
+                                    </span>
+                                    <img src="img/best-at-home-air-purifiers-287838-1592519435180-main.700x0c.jpg"
+                                        class="card-img-top coustom-img-card" alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class="text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <img src="img/s-l225.jpg" class="card-img-top coustom-img-card" alt="products">
+
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class="text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="bag position-relative">
+                                    <span
+                                        class="badge bg-danger coustom-border border-0 xl-size arivalcard position-absolute">
+                                        Sale
+                                    </span>
+                                    <img src="img/adidas-superstar-white.jpg" class="card-img-top coustom-img-card"
+                                        alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <img src="img/cgg_hero_600x.jpg" class="card-img-top coustom-img-card"
+                                        alt="products">
+                                    <div class="position-absolute discount-card xl-size text-light">
+                                        <h6 class="mb-0 fw-semibold">UPTO 30% OFFER!</h6>
+                                        <p class="mb-3 coustom-font">The <i>All-Flex Ignite</i> Dual</p>
+                                        <a href="#"
+                                            class="border coustom-border alphabet-boldness text-decoration-none text-dark bg-light py-1 px-2">
+                                            SHOP NOW
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS </p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-warning">
+                                        New
+                                    </span>
+                                    <img src="img/best-at-home-air-purifiers-287838-1592519435180-main.700x0c.jpg"
+                                        class="card-img-top coustom-img-card" alt="products">
+
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size coustom-border border-0 position-absolute  bg-danger">
+                                        Sale
+                                    </span>
+                                    <img src="img/s-l225.jpg" class="card-img-top coustom-img-card" alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 px-2">
+                                    <div class="text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="position-relative">
+                            <img src="img/spider-man-and-miles-shoes-m5.jpg"
+                                class="reset-size w-100 objectFit position-relative" alt="products discount">
+                            <div class="position-absolute discountShoes-position xl-size">
+                                <h5 class="mb-1 text-light fw-semibold">FIRST NEVER <br> FOLLOWS</h5>
+                                <p class="mb-3 text-light coustom-font">STELLER PACK</p>
+                                <a href="#"
+                                    class="border coustom-border alphabet-boldness text-decoration-none text-dark bg-light py-1 px-2">
+                                    SHOP NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RECOMMENDED FOR YOU -->
+                    <div class="row mb-2 head-position">
+                        <div class="col">
+                            <h6 class="title">RECOMMENDED FOR YOU</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="arrivalslider arrow coustmarrow">
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="bag ">
+                                    <img src="img/adidas-superstar-white.jpg" class="card-img-top coustom-img-cards"
+                                        alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-danger">
+                                        New
+                                    </span>
+                                    <img src="img/cgg_hero_600x.jpg" class="card-img-top coustom-img-cards"
+                                        alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS </p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-warning">
+                                        New
+                                    </span>
+                                    <img src="img/best-at-home-air-purifiers-287838-1592519435180-main.700x0c.jpg"
+                                        class="card-img-top coustom-img-cards" alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class="text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <img src="img/s-l225.jpg" class="card-img-top coustom-img-cards" alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="bag position-relative">
+                                    <span
+                                        class="badge bg-danger coustom-border border-0 xl-size arivalcard position-absolute">
+                                        Sale
+                                    </span>
+                                    <img src="img/adidas-superstar-white.jpg" class="card-img-top coustom-img-cards"
+                                        alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <img src="img/cgg_hero_600x.jpg" class="card-img-top coustom-img-cards"
+                                        alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS </p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size  coustom-border border-0  position-absolute bg-warning">
+                                        New
+                                    </span>
+                                    <img src="img/best-at-home-air-purifiers-287838-1592519435180-main.700x0c.jpg"
+                                        class="card-img-top coustom-img-cards" alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 testimonial-Border unset-cover">
+                                <div class="position-relative">
+                                    <span
+                                        class="badge arivalcard xl-size coustom-border border-0 position-absolute  bg-danger">
+                                        Sale
+                                    </span>
+                                    <img src="img/s-l225.jpg" class="card-img-top coustom-img-cards" alt="products">
+                                </div>
+                                <div class="card-footer border-top-0 p-2">
+                                    <div class=" text-center py-1">
+                                        <p class="mb-0">ZEXON BRAND MENS</p>
+                                        <p class="mb-0 fw-semibold">$240.00</p>
+                                        <div class="Star">
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                            <i class="fa-solid text-warning textcol fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4">
+                    <div class="row">
+                        <div class="col position-relative">
+                            <img src="img/-under-15K_790x345px.jpg" class="coustom-img-cards3 w-100"
+                                alt="mobile products">
+                            <div class="position-absolute discount-Phon text-center xl-size text-light">
+                                <a
+                                    class="border coustom-border border-0 alphabet-boldness text-decoration-none text-center text-dark coustom-back px-2 py-1">
+                                    Special Offer
+                                </a>
+                                <h4 class="mb-1 mt-1 alphabet-boldness">New Smart Phones</h4>
+                                <p class="xxxl-size">Start at <sup>$</sup>159</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <h6 class="title">PRODUCT CATAGEORIES</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="productus coustmarrow">
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-solid fs-5 fa-tv"></i>
+                                    <p class="mt-2 mb-0">ELECTRON</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-solid fs-5 fa-tablet-screen-button"></i>
+                                    <p class="mb-0 mt-2">MOBILES</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-regular fs-5 fa-gem"></i>
+                                    <p class="mb-0 mt-2">FASHIONS</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-solid fs-5 fa-briefcase"></i>
+                                    <p class="mb-0 mt-2">BURSES</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-sharp fs-5 fa-solid fa-gift"></i>
+                                    <p class="mb-0 mt-2">GIFT</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-sharp fs-5 fa-solid fa-gift"></i>
+                                    <p class="mb-0 mt-2">GIFT</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-solid fs-5 fa-house-circle-check"></i>
+                                    <p class="mb-0 mt-2">KITCHEN</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-solid fs-5 fa-tv"></i>
+                                    <p class="mt-2 mb-0">ELECTRON</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-solid fs-5 fa-house-circle-check"></i>
+                                    <p class="mb-0 mt-2">KITCHEN</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-solid fs-5 fa-tablet-screen-button"></i>
+                                    <p class="mb-0 mt-2">MOBILES</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-sharp fs-5 fa-solid fa-gift"></i>
+                                    <p class="mb-0 mt-2">GIFT</p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <i class="fa-regular fs-5 fa-gem"></i>
+                                    <p class="mb-0 mt-2">FASHIONS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 display-block m-auto">
+                    <div class="col Set-Border p-0 unset-coustom sub-coustom-border testimonial-Border">
+                        <div class="position-relative">
+                            <span class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-danger">
+                                New
+                            </span>
+                            <img src="img/51ba3T4vxbL._SX425_.jpg" class="card-img-top coustom-img-card"
+                                alt="headphones">
+                        </div>
+                        <div class="py-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-0">ZEXON BRAND MENS </p>
+                                <p class="mb-0 fw-semibold">$240.00</p>
+                                <div class="Star">
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-0 testimonial-Border sub-coustom-border unset-coustom Set-Border">
+                        <div class="position-relative">
+                            <span class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-warning">
+                                New
+                            </span>
+                            <img src="img/yNysSILx2LPDI.jpg" class="card-img-top coustom-img-card" alt="toolkit">
+                        </div>
+                        <div class="py-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-0">ZEXON BRAND MENS</p>
+                                <p class="mb-0 fw-semibold">$240.00</p>
+                                <div class="Star">
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-0 Set-Border unset-coustom sub-coustom-border testimonial-Border">
+                        <div class="position-relative">
+                            <img src="img/71gm8v4uPBL._SL1500_.jpg" class="card-img-top coustom-img-card" alt="mobile">
+                        </div>
+                        <div class="py-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-0">ZEXON BRAND MENS</p>
+                                <p class="mb-0 fw-semibold">$240.00</p>
+                                <div class="Star">
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col border-end-sm-0 p-0 sub-coustom-border border">
+                        <div class="position-relative">
+                            <span class="badge arivalcard xl-size coustom-border border-0 position-absolute bg-danger">
+                                New
+                            </span>
+                            <img src="img/best-at-home-air-purifiers-287838-1592519435180-main.700x0c.jpg"
+                                class="card-img-top coustom-img-card" alt="purifiers">
+                        </div>
+                        <div class="py-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-0">ZEXON BRAND MENS </p>
+                                <p class="mb-0 fw-semibold">$240.00</p>
+                                <div class="Star">
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                    <i class="fa-solid text-warning textcol fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-0 departdisplyNone border-start-0 border">
+                        <div class="bag">
+                            <div class="camra-card xl-size text-dark">
+                                <h6 class="mb-1 fw-semibold">CANON EOS</h6>
+                                <p class="mb-2 coustom-font">UPTO 30% FLAT OFFER</p>
+                                <p>
+                                    <span class="alphabet-boldness py-1 px-2 text-light background-color">
+                                        Special Offer!
+                                    </span>
+                                </p>
+                            </div>
+                            <img src="img/202206290427044032.jpg" class="card-img-top camra-sub-card" alt="camra">
+                        </div>
+                    </div>
+                </div>
+                <!-- brand partner -->
+                <div class="col-12 mt-5">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <h6 class="title">BRAND PARTNER</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="brand coustmarrow">
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div class="">
+                                    <img src="img/buff-logo.png" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/Tilley_logo_1200x630.webp" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/download (1).png" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/mkysKujd41X.jpg" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/Tilley_logo_1200x630.webp" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/download (1).png" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/mkysKujd41X.jpg" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/samsung.jpg" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                            <div class="col-3 text-center p-3 testimonial-Border unset-cover">
+                                <div>
+                                    <img src="img/Philips-logo (1).webp" class="mw-100 coustom-logo" alt="brand">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-4 Unset-padding section-coustom  medium-size cover-set card-top-border ">
+            <div class="container container-Coustom ">
+                <div class="row m-auto display-block">
+                    <div
+                        class="col testimonial-Border border-bottom-0 cover-coustom pt-2 pb-3 section-border Set-Border unset-cover sub-coustom-border">
+                        <div class="position-relative text-center">
+                            <img src="img/shopping-cart-logo-vector-14078605.jpg" class="card-img-top imgpay"
+                                alt="shiping">
+                        </div>
+                        <div class="pb-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-1 fw-semibold">FREE SHIPING</p>
+                                <p class="mb-0 seller-line-height text-secondary">
+                                    Free Shiping On World Wide Order
+                                    <br> over $99
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col pt-2 pb-3 cover-coustom  testimonial-Border section-border sub-coustom-border Set-Border">
+                        <div class="position-relative text-center">
+                            <img src="img/-vector-icons-226509133.jpg" class="card-img-top imgpay" alt="payment">
+                        </div>
+                        <div class="pb-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-1 fw-semibold">TRUSTED PAY</p>
+                                <p class="mb-0 seller-line-height text-secondary">
+                                    100% Payment Protection <br> & easy return
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pt-2 pb-3 Set-Border testimonial-Border section-border sub-coustom-border ">
+                        <div class="position-relative text-center">
+                            <img src="img/_1497699.jpg" class="card-img-top imgpay" alt="secutity">
+                        </div>
+                        <div class="pb-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-1 fw-semibold">SECURED PAYMENT</p>
+                                <p class="mb-0 seller-line-height text-secondary">
+                                    All Major Credits & Debits Cards <br>Accepted
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col Set-Border  testimonial-Border coustom-sec  section-border pt-2 pb-3 sub-coustom-border ">
+                        <div class="position-relative text-center">
+                            <img src="img/6488-2395.webp" class="card-img-top imgpay" alt="shoping">
+                        </div>
+                        <div class="pb-2 border-top-0 px-2">
+                            <div class=" text-center py-1">
+                                <p class="mb-1 fw-semibold">SHOP ON APP </p>
+                                <p class="mb-0 seller-line-height text-secondary">
+                                    Free Shiping On World Wide Order <br> over $99
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-danger">
+            <div class="container pb-2 pt-4 seller-line-height medium-size container-Coustom ">
+                <div class="row">
+                    <div
+                        class="text-light alphabet-boldness align-items-center d-flex coustom-font-card col-md-2 col-sm-12">
+                        <i class="fa-regular fs-5 pb-3 pe-4 fa-square-xmark"></i>
+                        <p>SIGNUP TO NEWSLETTER</p>
+                    </div>
+                    <div class="col-md-4 col-lg-5 d-flex text-sm-center pb-3 pt-0 col-sm-12 coustom-font-card">
+                        <input type="text" class="p-2 ps-3 w-100 focus-border  coustom-sub-cover  call-focus border-0"
+                            placeholder="Enter Your Email Address">
+                        <button class="border-0 coustom-back focus-border text-dark p-2 alphabet-boldness">
+                            SUBMIT</button>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-5 col-sm-12 d-sm-block  d-md-flex align-items-center  justify-content-md-end">
+                        <p
+                            class="text-light coustom-font-card mt-sm-4 mb-sm-1 mb-md-3 mt-md-0 text-sm-center item-center alphabet-boldness me-3">
+                            KEEP IN TOUCH
+                        </p>
+                        <ul class="list-unstyled d-flex mt-sm-2 mt-md-0 justify-content-sm-cente iconpart">
+                            <li><i class="fa-brands iconfix fa-twitter"></i></li>
+                            <li><i class="fa-brands iconfix fa-square-facebook"></i></li>
+                            <li><i class="fa-brands iconfix fa-instagram"></i></li>
+                            <li><i class="fa-brands iconfix fa-pinterest"></i></li>
+                            <li><i class="fa-brands iconfix fa-whatsapp"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-light">
+            <div class="container pt-4 container-Coustom ">
+                <div class="row">
+                    <div class="col-4 footer-width">
+                        <a class="navbar-brand fs-5 text-dark" href="#">
+                            <i class="fa-solid mb-3 text-danger me-1 fw-bold fa-cart-shopping"></i>
+                            MEGAMART
+                        </a>
+                        <p class="coustom-font-card text-secondary mb-2">Lorem, ipsum dolor sit
+                            voluptas voluptas velit quaerat velit quaerat.
+                        </p>
+                        <ul class="list-unstyled coustom-size-footer coustom-font-card text-secondary">
+                            <li><span class="text-dark">Address:</span> 4668,NEW YORK</li>
+                            <li><span class="text-dark">Phone:</span className="text-secondary">
+                                (085)5645621
+                            </li>
+                            <li><span class="text-dark">Email:</span> megamart@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="title-font mb-3">COMPANY</p>
+                        <ul class="list-unstyled coustom-size-footer coustom-font-card text-secondary">
+                            <li>lorem</li>
+                            <li>iupsum</li>
+                            <li>tutorial</li>
+                            <li>fusing</li>
+                            <li>luktorial</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="title-font mb-3">POLICY INFO</p>
+                        <ul class="list-unstyled coustom-size-footer coustom-font-card text-secondary">
+                            <li>lorem</li>
+                            <li>iupsum</li>
+                            <li>tutorial</li>
+                            <li>fusing</li>
+                            <li>luktorial</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="title-font mb-3">MY ACCOUNT</p>
+                        <ul class="list-unstyled coustom-size-footer coustom-font-card text-secondary">
+                            <li>lorem</li>
+                            <li>iupsum</li>
+                            <li>tutorial</li>
+                            <li>fusing</li>
+                            <li>luktorial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid card-top-border ">
+            <div class="container pt-4 container-Coustom ">
+                <div class="row">
+                    <div class="col xl-size text-secondary">
+                        <p>@ COPYRIGHT - MEGAMART TEMPLATE BY DESIGNFALLS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.homeslider').slick(
+            {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+            });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(".vertical-center-4").slick({
+            dots: true,
+            slidesToShow: 4,
+            slidesToScroll: 2
+        });
+
+        $('.hotdeals').slick(
+            {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+            });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.testimonials').slick(
+            {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+            });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.productus').slick(
+            {
+                slidesToShow: 10,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    }, {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ]
+            });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.brand').slick(
+            {
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 4,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+
+                ]
+
+            });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.arrivalslider').slick(
+            {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.arrslider').slick(
+            {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.bestSlider').slick(
+            {
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+            });
+    });
+</script>
+
+</html>
